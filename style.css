@@ -1,3 +1,9 @@
+body {
+    height: 100%;
+}
+
+
+
 .box {
     width: 100px;
     height: 100px;
@@ -36,29 +42,29 @@
     to {
         top: 50%;
         left: 50%;
-        border-radius: 0 0 100px 0;
+        border-radius: 0 0 100vh 0;
         background-color: black;
     }
 }
 @keyframes main--top-right {
     to {
         top: 50%;
-        left: 50%;
-        border-radius: 0 0 0 100px;
+        right: 50%;
+        border-radius: 0 0 0 100vh;
         background-color: black;
     }
 }@keyframes main--bottom-right {
     to {
-        top: 50%;
-        left: 50%;
-        border-radius: 100px 0 0 0;
+        bottom: 50%;
+        right: 50%;
+        border-radius: 100vh 0 0 0;
         background-color: black;
     }
 }@keyframes main--bottom-left {
     to {
-        top: 50%;
+        bottom: 50%;
         left: 50%;
-        border-radius: 0 100px 0 0;
+        border-radius: 0 100vh 0 0;
         background-color: black;
     }
 }
